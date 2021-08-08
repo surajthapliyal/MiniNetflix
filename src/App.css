@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: white;
+}
+body {
+  background-color: rgb(34, 33, 33);
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+}
+nav {
+  min-height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.904);
+}
+nav li {
+  list-style-type: none;
+  padding: 10px;
+  display: inline;
+  justify-content: space-between;
+}
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav a {
+  color: #e50914;
+  font-size: 20px;
+  text-decoration: none;
+  transition: 0.2s ease-in-out;
+}
+nav a:hover {
+  color: white;
+}
+.logo {
+  font-weight: bolder;
+  font-style: italic;
+  color: #e50914;
+  font-size: 2.5rem;
+  padding: 10px;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+form input {
+  background-color: black;
+  color: white;
+  padding: 5px;
+  border: 2px solid #e50914;
+  border-radius: 5px;
+}
+input:focus {
+  border: 1px solid white;
+}
+.movie-card {
+  margin: 15px 20px;
+  width: 20%;
+  height: 350px;
+  background: black;
+  border-radius: 5px;
+  padding-bottom: 5px;
+  transition: 0.3s ease-in-out;
+}
+.movie-card:hover {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.822);
+  transform: translateY(-5px);
+}
+img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+  position: relative;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.watchNowBtn {
+  padding: 5px 8px;
+  font-size: 15px;
+  text-decoration: none;
+  cursor: pointer;
+}
+#search {
+  cursor: pointer;
+  background-color: #e50914;
+  border-radius: 10px;
+  padding : 5px;
+}
+button {
+  margin-left: 5px;
+  margin-top: 5px;
+  background-color: black;
+  border: none;
+  color: white;
+  transition: 0.2s ease-in-out;
+  border: 1.5px solid black;
+}
+button:hover {
+  background-color: #e50914;
+  color: white;
+}
+.details {
+  background: linear-gradient(0deg, #e50914, black 80%) no-repeat;
+  padding: 5px;
+  border-radius: 5px;
+}
+.details h5,
+span {
+  color: white;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
