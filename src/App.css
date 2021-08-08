@@ -91,7 +91,7 @@ img {
   cursor: pointer;
   background-color: #e50914;
   border-radius: 10px;
-  padding : 5px;
+  padding: 5px;
 }
 button {
   margin-left: 5px;
@@ -119,4 +119,38 @@ span {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+  * {
+    box-sizing: content-box;
+  }
+  .movie-card {
+    width: 80%;
+  }
+  .logo {
+    font-size: 20px;
+  }
+  nav {
+    height: 80px;
+  }
+  nav a {
+    font-size: 15px;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    padding: 0;
+    margin: 0;
+  }
+  input {
+    width: 60%;
+    margin-left: 10px;
+  }
+  form button {
+    width : 55%;
+    padding: 0;
+    margin-left: 12px;
+  }
 }
