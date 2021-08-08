@@ -1,6 +1,5 @@
 {
   "name": "netflix-clone",
-  "homepage": "https://mininetflix101.github.io/reactproject",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
