@@ -164,7 +164,7 @@ hr {
   text-align: right;
   position: absolute;
   top: -3px;
-  right: -685px;
+  right: -705px;
   padding-right: 5px;
 }
 @media only screen and (max-width: 600px) {
@@ -217,7 +217,7 @@ hr {
     text-align: right;
     position: absolute;
     top: -3px;
-    right: -275px;
+    right: -285px;
     padding-right: 5px;
   }
 }
