@@ -2,12 +2,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  /* font-family: "DM Sans", sans-serif; */
+  font-family: "Assistant", sans-serif;
   color: white;
 }
 body {
-  background-color: rgb(34, 33, 33);
+  background-color: rgb(22, 22, 22);
 }
 ul {
   display: flex;
@@ -34,6 +34,9 @@ nav li {
 nav a {
   color: #e50914;
   font-size: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+
   text-decoration: none;
   transition: 0.2s ease-in-out;
 }
@@ -43,6 +46,8 @@ nav a:hover {
 .logo {
   font-weight: bolder;
   font-style: italic;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   color: #e50914;
   font-size: 2.5rem;
   padding: 10px;
@@ -120,7 +125,48 @@ span {
   flex-wrap: wrap;
   justify-content: center;
 }
-
+.headingFAQ {
+  text-align: center;
+  margin: 10px;
+  font-size: 45px;
+}
+.faqs section h4 {
+  display: none;
+  padding: 20px;
+  font-size: 20px;
+}
+.faqs section a {
+  text-align: center;
+  text-decoration: none;
+  position: relative;
+}
+.faqs section h2 {
+  height: 50px;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+}
+.faqs section:target h4 {
+  display: block;
+}
+.faqs section {
+  background-color: rgb(54, 54, 54);
+  width: 60%;
+  margin: auto;
+  margin-bottom: 10px;
+}
+hr {
+  border: 0;
+  border-bottom: 2px solid rgb(0, 0, 0);
+}
+.expand {
+  font-size: 50px;
+  text-align: right;
+  position: absolute;
+  top: -3px;
+  right: -685px;
+  padding-right: 5px;
+}
 @media only screen and (max-width: 600px) {
   * {
     box-sizing: content-box;
@@ -149,8 +195,23 @@ span {
     margin-left: 10px;
   }
   form button {
-    width : 55%;
+    width: 55%;
     padding: 0;
     margin-left: 12px;
+  }
+  .faqs section h2 {
+    height: 30px;
+    padding: 15px;
+    font-size: 20px;
+    text-align: left;
+    width : 70%;
+  }
+  .expand {
+    font-size: 50px;
+    text-align: right;
+    position: absolute;
+    top: -3px;
+    right: -255px;
+    padding-right: 5px;
   }
 }
