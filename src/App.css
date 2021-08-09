@@ -199,6 +199,9 @@ hr {
     padding: 0;
     margin-left: 12px;
   }
+  .faqs section {
+    width : 80%;
+  }
   .faqs section h2 {
     height: 30px;
     padding: 15px;
@@ -211,7 +214,7 @@ hr {
     text-align: right;
     position: absolute;
     top: -3px;
-    right: -255px;
+    right: -350px;
     padding-right: 5px;
   }
 }
