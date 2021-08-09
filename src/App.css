@@ -199,22 +199,25 @@ hr {
     padding: 0;
     margin-left: 12px;
   }
+}
+
+@media only screen and (max-width: 600px) {
   .faqs section {
-    width : 80%;
+    width: 80%;
   }
   .faqs section h2 {
     height: 30px;
     padding: 15px;
     font-size: 20px;
     text-align: left;
-    width : 70%;
+    width: 70%;
   }
   .expand {
     font-size: 50px;
     text-align: right;
     position: absolute;
     top: -3px;
-    right: -350px;
+    right: -275px;
     padding-right: 5px;
   }
 }
